@@ -26,4 +26,28 @@ export const GlobalStyle = StyleSheet.create({
     fontWeight: "300",
     // fontFamily: "SpaceMono",
   },
+
+  row: {
+    flexDirection: "row",
+    justifyContent: "center",
+    paddingHorizontal: 10,
+    paddingBottom: 18,
+  },
+
+  button: {
+    height: 80,
+    width: 80,
+    borderRadius: 100,
+    backgroundColor: Colors.darkGray,
+    justifyContent: "center",
+    marginHorizontal: 10,
+  },
+  buttonText: {
+    textAlign: "center",
+    padding: 10,
+    color: Colors.textPrimary,
+    fontSize: 24.5,
+    fontWeight: "300",
+    fontFamily: "SpaceMono",
+  },
 });
