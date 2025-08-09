@@ -46,7 +46,7 @@ export const GlobalStyle = StyleSheet.create({
     textAlign: "center",
     padding: 10,
     color: Colors.textPrimary,
-    fontSize: 24.5,
+    fontSize: 24,
     fontWeight: "300",
     fontFamily: "SpaceMono",
   },
